@@ -1,0 +1,3 @@
+https://sandbox.orcid.org/oauth/authorize?client_id=APP-CLT6N7BZQK1XTBLU&response_type=code&scope=/activities/update%20/read-limited%20/person/update&redirect_uri=http://127.0.0.1:8000
+
+curl -i -H 'Content-type: application/vnd.orcid+xml' -H 'Authorization: Bearer 4b0e5fc7-6d03-47d6-92f0-77e4902efcaa' -d '@work_update.xml' -X POST 'https://api.sandbox.orcid.org/v3.0/0009-0001-0973-0769/work'
