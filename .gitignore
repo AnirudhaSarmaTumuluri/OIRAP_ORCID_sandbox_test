@@ -1,3 +1,4 @@
-.env
-.csv
-.mov
+*.env
+*.csv
+*.mov
+*.DS_Store
